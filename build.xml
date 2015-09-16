@@ -28,10 +28,10 @@
 	
 	<!--property name="processing.classes" location="/Applications/Processing.app/Contents/Resources/Java/"/-->
 	<property name="processing.classes" 
-			  location="/Applications/Processing-3a5/Processing.app/Contents/Java/"/>
+			  location="/Applications/processing/Processing-2.2.1.app/Contents/Java/"/>
 
 	<property name="processing.libs" 
-			  location="/Users/fjenett/Documents/Processing/libraries"/>
+			  location="/Users/ms/Documents/Processing/libraries"/>
 
 	<path id="library-classpath">
 		<fileset dir="external">
@@ -55,7 +55,7 @@
 	</path>
 	
 	<taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
-	           			   classpath="../_resources/closure-compiler/compiler.jar" />
+	           			   classpath="compiler/compiler.jar" />
 	
 	<!--- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 		HELP
